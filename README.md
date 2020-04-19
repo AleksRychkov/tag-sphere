@@ -1,6 +1,6 @@
 # Tag Sphere View
 
-![Preview-logo](/art/logo.gif "Preview demo")
+![Preview-logo](https://raw.githubusercontent.com/magic-goop/tag-sphere/master/art/logo.gif)
 
 ## Overview  
 
@@ -62,7 +62,7 @@ tagView.setTextPaint(
 
 ## Library supports different types of customization   
 
-![Preview-demo](/art/demo.gif)  
+![Preview-demo](https://raw.githubusercontent.com/magic-goop/tag-sphere/master/art/demo.gif)  
 
 | Xml                         | Code                                                    | Notes                                                                                              |
 | --------------------------- |:-------------------------------------------------------:| --------------------------------------------------------------------------------------------------:|
@@ -78,11 +78,11 @@ tagView.setOnLongPressedListener(this)
 tagView.setOnTagTapListener(this)
 ```
 
-For more information checkout [example](/example) project in repository.
+For more information checkout [example](https://github.com/magic-goop/tag-sphere/example) project in repository.
 
 ## Limitations
 
-###### All drawing and computation done on UI thread hence there could be frames drops on slow devices or with big amount of objects to render.
+All drawing and computation done on UI thread hence there could be frames drops on slow devices or with big amount of objects to render.
 
 
 ## Issues
@@ -92,7 +92,7 @@ If you find any problems or would like to suggest a feature, please feel free to
 
 Showcase 1                 |  Showcase 2              |  Showcase 3              |
 :-------------------------:|:------------------------:|:------------------------:|
-![](/art/showcase1.gif)    | ![](/art/showcase2.gif)  | ![](/art/showcase3.gif)  |
+![](https://raw.githubusercontent.com/magic-goop/tag-sphere/master/art/showcase1.gif)    | ![](https://raw.githubusercontent.com/magic-goop/tag-sphere/master/art/showcase2.gif)  | ![](https://raw.githubusercontent.com/magic-goop/tag-sphere/master/art/showcase3.gif)  |
 
 ## License
 
@@ -108,4 +108,4 @@ Showcase 1                 |  Showcase 2              |  Showcase 3             
     distributed under the License is distributed on an "AS IS" BASIS,
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
-    limitations under the License.
+    limitations under the License.  
