@@ -25,7 +25,7 @@ Then, add the library to your module build.gradle:
 
 ```groovy
 dependencies {
-    implementation 'com.github.magic-goop:tagsphere:LATEST.RELEASE.HERE'
+    implementation 'com.github.magic-goop:tag-sphere:LATEST.RELEASE.HERE'
 }
 ```
 
