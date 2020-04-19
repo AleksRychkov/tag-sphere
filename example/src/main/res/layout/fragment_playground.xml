@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false">
+
+    <com.magicgoop.tagsphere.TagSphereView
+        android:id="@+id/tagView"
+        android:layout_marginBottom="@dimen/sheet_peek"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BFA9A8A8"
+        android:clickable="true"
+        android:focusable="true"
+        android:elevation="4dp"
+        app:behavior_peekHeight="@dimen/sheet_peek"
+        app:layout_behavior="@string/bottom_sheet_behavior">
+
+        <LinearLayout
+            android:padding="16dp"
+            android:fitsSystemWindows="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="120dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="24dp"
+                android:text="Settings" />
+
+            <TextView
+                android:text="Radius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <androidx.appcompat.widget.AppCompatSeekBar
+                android:id="@+id/sbRadius"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:max="90"
+                android:progress="25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Touch sensetivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <androidx.appcompat.widget.AppCompatSeekBar
+                android:id="@+id/sbTouchSensitivity"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:max="99"
+                android:progress="10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/cbRotateOnTouch"
+                android:text="Allow rotation sphere on touch"
+                android:textAlignment="viewStart"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:checked="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/cbAutoRotate"
+                android:text="AutoRotate"
+                android:textAlignment="viewStart"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:checked="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Easing functions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RadioGroup
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:id="@+id/rgEasingFunctions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rbEaseInExpo"
+                    android:text="Ease In Expo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:checked="true"
+                    android:id="@+id/rbEaseOutExpo"
+                    android:text="Ease Out Expo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/rbCustom"
+                    android:text="Custom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/rbNone"
+                    android:text="None"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
