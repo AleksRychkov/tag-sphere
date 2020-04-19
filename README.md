@@ -78,7 +78,7 @@ tagView.setOnLongPressedListener(this)
 tagView.setOnTagTapListener(this)
 ```
 
-For more information checkout [example](https://github.com/magic-goop/tag-sphere/example) project in repository.
+For more information checkout [example](https://github.com/magic-goop/tag-sphere/tree/master/example) project in repository.
 
 ## Limitations
 
