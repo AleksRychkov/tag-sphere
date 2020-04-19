@@ -96,7 +96,7 @@ Showcase 1                 |  Showcase 2              |  Showcase 3             
 
 ## License
 
-    Copyright 2018 Alexander Rychkov
+    Copyright 2020 Alexander Rychkov
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
