@@ -89,13 +89,11 @@ For more information checkout [example](/example) project in repository.
 If you find any problems or would like to suggest a feature, please feel free to file an [issue](https://github.com/magic-goop/tag-sphere/issues)
 
 ## Some examples of what you can do with this library  
-<br/>
 
-<img src="/art/showcase1.gif" align="left" width="30%">  
-<img src="/art/showcase2.gif" align="left" width="30%">  
-<img src="/art/showcase3.gif" align="left" width="30%">    
+Showcase 1                 |  Showcase 2              |  Showcase 3              |
+:-------------------------:|:------------------------:|:------------------------:|
+![](/art/showcase1.gif)    | ![](/art/showcase2.gif)  | ![](/art/showcase3.gif)  |
 
-<br/><br/><br/>
 ## License
 
   Copyright 2020 Alexander Rychkov
