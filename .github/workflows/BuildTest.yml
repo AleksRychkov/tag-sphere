@@ -107,5 +107,5 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v2
         with:
-          name: tagSphere
+          name: tagSphereApk
           path: example/build/outputs/apk/debug/**.apk
