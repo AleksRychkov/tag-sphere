@@ -1,3 +1,5 @@
+# [Currently unmaintained]
+
 # Tag Sphere View
 
 ![Preview-logo](https://raw.githubusercontent.com/magic-goop/tag-sphere/master/art/logo.gif)
